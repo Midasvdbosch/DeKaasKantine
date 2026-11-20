@@ -318,35 +318,10 @@ h1, h2, h3, p { margin: 0; }
 .contact span { width: 3rem; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--brown-soft); }
 .contact a { font-weight: 600; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .visit__actions { display: flex; flex-wrap: wrap; gap: .75rem; }
-.visit__map { margin: 0; align-self: center; }
-.visit__map svg { width: 100%; max-width: 480px; height: auto; display: block; margin-left: auto; }
-.visit__map figcaption { font-size: .85rem; color: var(--brown-soft); margin-top: .6rem; text-align: right; }
-.map__card { fill: var(--paper); stroke: rgba(201, 162, 74, .6); stroke-width: 1.5; }
-.map__land { fill: var(--butter); stroke: rgba(73, 46, 27, .12); stroke-width: 1; }
-.map__water { fill: none; stroke: #AFC6C4; stroke-width: 7; stroke-linejoin: round; stroke-linecap: round; }
-.map__water--wide { stroke-width: 16; }
-.map__water--thin { stroke-width: 4; }
-.map__water-label { font-family: var(--f-body); font-style: italic; font-size: 10.5px; fill: #5F8381; letter-spacing: .03em; }
-.map__sign { fill: var(--brown); }
-.map__label.map__label--sign { fill: var(--butter); font-size: 13px; }
-.map__plate { fill: var(--paper); stroke: var(--brown); stroke-width: 1.2; }
-.map__canal { fill: none; stroke: #AFC6C4; stroke-width: 5; stroke-linecap: round; }
-.map__street { fill: none; stroke: var(--brown); stroke-width: 1.6; stroke-linecap: round; opacity: .45; }
-.map__street--main { stroke-width: 3; opacity: .75; }
-.map__icon { fill: var(--paper); stroke: var(--brown); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
-.map__route { fill: none; stroke: var(--brown); stroke-width: 1.8; stroke-dasharray: 2 6; stroke-linecap: round; }
-.map__leader { fill: none; stroke: var(--brown); stroke-width: 1.2; }
-.map__pin-halo { fill: var(--gold); opacity: .35; }
-.map__pin-dot { fill: var(--brown); stroke: var(--gold); stroke-width: 3; }
-.map__label { font-family: var(--f-display); font-size: 15px; letter-spacing: .06em; text-transform: uppercase; fill: var(--brown); }
-.map__label--street { font-family: var(--f-body); font-size: 10.5px; text-transform: none; letter-spacing: .02em; font-style: italic; fill: var(--brown-soft); }
-.map__label--in { font-size: 12px; }
-.map__label--hero { font-size: 19px; }
-.map__note { font-family: var(--f-body); font-size: 11px; fill: var(--brown-soft); }
-.map__compass path { fill: var(--gold); }
-.map__compass text { font-family: var(--f-display); font-size: 13px; fill: var(--brown); }
-.map__title { font-family: var(--f-script); font-size: 40px; fill: var(--brown); }
-.map__title--sm { font-size: 34px; }
+.visit__photo { margin: 0; align-self: center; }
+.visit__photo .hero__frame { transform: rotate(-1deg); }
+.visit__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 2px; }
+.visit__photo figcaption { font-size: .9rem; color: var(--brown-soft); margin-top: 1.1rem; }
 @media (max-width: 860px) { .visit { grid-template-columns: 1fr; } }
 
 /* ---------- Footer ---------- */

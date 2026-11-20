@@ -50,4 +50,3 @@ Eigen domein (bijv. kaaskantine.nl)? Vul het in bij **Settings → Pages → Cus
 - Maandag en dinsdag staan als gesloten; even bevestigen.
 - Foto's zijn Instagram-screenshots (~450 px). Originele foto's maken de site scherper; vervang ze in `images/` met dezelfde bestandsnaam.
 - De weekend special-foto bevat nog een muiscursor uit de schermafbeelding.
-- De getekende kaart is indicatief; "± 10 min lopen" vanaf het station even nalopen.

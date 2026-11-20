@@ -229,83 +229,9 @@
           <a class="btn btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Hofstraat+4,+1811+EV+Alkmaar" target="_blank" rel="noopener">Plan je route</a>
         </div>
       </div>
-      <figure class="visit__map">
-        <svg viewBox="0 0 480 380" role="img" aria-labelledby="map-title map-desc">
-          <title id="map-title">Getekende kaart van Alkmaar centrum</title>
-          <desc id="map-desc">De Kaaskantine ligt aan de Hofstraat in het zuiden van de binnenstad, vlak bij de Oudegracht. De Grote Kerk ligt in het noordwesten, de Waag en Kaasmarkt in het noordoosten. Het station ligt ten noordwesten van het centrum, op ongeveer tien minuten lopen.</desc>
-          <defs>
-            <path id="p-kanaal" d="M150,14 C230,40 330,92 470,150"/>
-            <path id="p-oudegracht" d="M40,170 C100,214 170,282 238,360"/>
-            <path id="p-verdronkenoord" d="M312,276 C360,300 410,326 470,350"/>
-          </defs>
-
-          <rect x="1" y="1" width="478" height="378" rx="10" class="map__card"/>
-
-          <!-- binnenstad (voetgangersgebied) -->
-          <path class="map__land" d="M78,108 C150,92 250,90 318,96 C334,118 334,170 324,206 C316,240 306,270 296,292 C270,300 252,300 240,296 C190,250 130,210 86,190 C72,160 70,130 78,108Z"/>
-
-          <!-- water -->
-          <use href="#p-kanaal" class="map__water map__water--wide"/>
-          <path class="map__water" d="M18,30 C30,90 24,150 30,210 C34,260 44,300 60,370"/>
-          <use href="#p-oudegracht" class="map__water"/>
-          <path class="map__water" d="M346,92 C338,130 330,170 324,204 C318,232 312,252 310,276"/>
-          <path class="map__water" d="M324,204 C370,212 420,222 470,232"/>
-          <use href="#p-verdronkenoord" class="map__water"/>
-          <path class="map__water map__water--thin" d="M240,296 C262,290 290,282 310,276"/>
-
-          <!-- straten -->
-          <path class="map__street" d="M112,124 C180,124 250,132 312,148"/>
-          <path class="map__street" d="M92,172 C160,176 240,186 318,198"/>
-          <path class="map__street" d="M150,104 C168,150 200,206 250,280"/>
-          <path class="map__street" d="M212,96 C228,150 248,210 272,290"/>
-          <path class="map__street" d="M270,94 C280,140 290,200 296,262"/>
-          <path class="map__street" d="M130,206 C190,220 250,238 300,250"/>
-
-          <!-- waternamen -->
-          <text class="map__water-label" dy="-12"><textPath href="#p-kanaal" startOffset="22%">Noordhollandsch Kanaal</textPath></text>
-          <text class="map__water-label" dy="14"><textPath href="#p-oudegracht" startOffset="18%">Oudegracht</textPath></text>
-          <text class="map__water-label" dy="14"><textPath href="#p-verdronkenoord" startOffset="14%">Verdronkenoord</textPath></text>
-
-          <!-- Grote Kerk -->
-          <g class="map__icon" transform="translate(112 112)">
-            <rect x="-16" y="0" width="32" height="16"/>
-            <path d="M-16,0 L0,-10 L16,0"/>
-            <path d="M-24,16 V-12 L-20,-22 L-16,-12 V16"/>
-          </g>
-          <text x="104" y="146" text-anchor="middle" class="map__label">Grote Kerk</text>
-
-          <!-- Waag -->
-          <g class="map__icon" transform="translate(306 158)">
-            <rect x="-11" y="0" width="22" height="16"/>
-            <path d="M-4,0 V-12 L0,-20 L4,-12 V0"/>
-          </g>
-          <text x="290" y="132" text-anchor="end" class="map__label">Waag · Kaasmarkt</text>
-
-          <!-- station + looproute -->
-          <g transform="translate(42 34)">
-            <rect x="-24" y="-11" width="48" height="22" rx="4" class="map__sign"/>
-            <text y="5" text-anchor="middle" class="map__label map__label--sign">Station</text>
-          </g>
-          <text x="76" y="38" class="map__note">± 10 min lopen</text>
-          <path class="map__route" d="M44,50 C80,70 130,88 158,112 C196,150 232,210 254,262"/>
-
-          <!-- De Kaaskantine -->
-          <g class="map__pin" transform="translate(262 270)">
-            <circle r="15" class="map__pin-halo"/>
-            <circle r="7.5" class="map__pin-dot"/>
-          </g>
-          <rect x="188" y="290" width="128" height="40" rx="4" class="map__plate"/>
-          <text x="252" y="309" text-anchor="middle" class="map__label map__label--hero">De Kaaskantine</text>
-          <text x="252" y="323" text-anchor="middle" class="map__note">Hofstraat 4</text>
-
-          <!-- noordpijl + titel -->
-          <g transform="translate(452 40)" class="map__compass">
-            <path d="M0,-16 L6,6 L0,2 L-6,6Z"/>
-            <text y="22" text-anchor="middle">N</text>
-          </g>
-          <text x="72" y="356" text-anchor="start" class="map__title map__title--sm">Alkmaar</text>
-        </svg>
-        <figcaption>Getekend, niet op schaal. Voor de exacte route: <a class="link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Hofstraat+4,+1811+EV+Alkmaar" target="_blank" rel="noopener">open Google Maps</a>.</figcaption>
+      <figure class="visit__photo">
+        <div class="hero__frame"><img src="images/gevel-opening.jpg" alt="De voordeur van De Kaaskantine aan de Hofstraat, met gele ballonnen en gasten die naar binnen lopen" width="699" height="466" loading="lazy"></div>
+        <figcaption>Zo herken je ons: de donkere pui met ons logo op de ramen.</figcaption>
       </figure>
     </section>
   </main>
